@@ -1,0 +1,243 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    background-color: #6c5203;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: rgb(250, 248, 248);
+    padding: 10px 0;
+    position: sticky;
+    top: 5;
+    font-size:medium;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display:inline;
+    margin: 0 18px;
+}
+
+header nav ul li a {
+    text-decoration:underline;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li .btn-subscribe {
+    background-color: #ff6347;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('assets/hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 30px; /* Added margin below the paragraph */
+}
+
+.hero .btn-main {
+    padding: 7px 14px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    margin-top: 20px;  /* Add some space between the button and the text */
+}
+
+/* Categories Section */
+.categories {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.category-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-card {
+    background-color: #eaeaea;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.category-card img {
+    width: 260px;
+    margin-bottom: 15px;
+}
+
+/* Latest Posts Section */
+.latest-posts {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.latest-posts h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.post img{
+
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Space between the image and text */
+}
+.post h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.post a {
+    color: #ff6347;
+}
+
+/* Why Work With Me Section */
+.why-work-with-me {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.why-work-with-me h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    width: 30%;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.service img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.subscribe {
+    text-align: center;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+#subscribe-form input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+#subscribe-form button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#subscribe-form button:hover {
+    background-color: #e53d2d;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.8rem; /* Smaller font for very small screens */
+    }
+
+    .hero p {
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+    .category-card h3 {
+        font-size: 1.3rem; /* Adjust title size */
+    }
+
+    .category-card p {
+        font-size: 0.9rem; /* Adjust paragraph size */
+    }
+
+    .service h3 {
+        font-size: 1.3rem; /* Adjust service title font size */
+    }
+    .service p {
+        font-size: 0.9rem; /* Adjust service description font size */
+    }
+
+    footer p {
+        font-size: 0.8rem; /* Adjust footer text size */
+    }
+}

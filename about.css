@@ -1,0 +1,338 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #6c5203;
+    color: #333;
+}
+
+/* Header Section */
+.header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ff6347;
+}
+
+.navbar ul li .btn-subscribe {
+    background-color: #ff6347;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* About Hero Section */
+.about-hero {
+    background: linear-gradient(rgba(126, 87, 0, 0.75), rgba(126, 87, 0, 0.75)),
+        url('assets/about-hero.jpg') center/cover no-repeat;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.about-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-hero-content p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Call To Action Section */
+.cta-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #ff6347;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #e53d2a;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+.header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #ff6347;
+}
+
+.navbar ul li .btn-subscribe {
+    background-color: #ff6347;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* About Hero Section */
+.about-hero {
+    background: linear-gradient(rgba(126, 87, 0, 0.75), rgba(126, 87, 0, 0.75)),
+        url('assets/about-hero.jpg') center/cover no-repeat;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.about-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-hero-content p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Call To Action Section */
+.cta-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #ff6347;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #e53d2a;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    /* Adjust Hero Section */
+    .about-hero-content h1 {
+        font-size: 2.2rem; /* Reduced font size for smaller screens */
+    }
+
+    .about-hero-content p {
+        font-size: 1rem;
+    }
+
+    /* Adjust navigation for small screens */
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    /* Stack About Section content on smaller screens */
+    .about-section {
+        padding: 40px 20px;
+    }
+
+    .about-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-section p {
+        font-size: 1rem;
+    }
+
+    /* CTA Button */
+    .cta-section h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Ensure form and sections are centered and stack well on mobile */
+    .cta-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* Footer Section Adjustments */
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Further adjustments for extra small screens (smartphones) */
+@media (max-width: 480px) {
+    .about-hero-content h1 {
+        font-size: 1.8rem; /* Smaller heading font size */
+    }
+
+    .about-hero-content p {
+        font-size: 0.9rem; /* Smaller paragraph font */
+    }
+
+    .cta-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .cta-btn {
+        font-size: 1rem;
+        padding: 12px 22px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
